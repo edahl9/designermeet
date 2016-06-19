@@ -13,3 +13,18 @@ body {
 *:after {
     box-sizing: border-box;
 }
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf,
+.clear {
+  content: "";
+  display: table;
+  clear: both; }
+
+
