@@ -1,0 +1,15 @@
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
